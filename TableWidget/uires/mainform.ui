@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainForm</class>
+ <widget class="QWidget" name="MainForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>429</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>601</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Age</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButtonTest1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>390</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>test1</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
